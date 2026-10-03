@@ -1,0 +1,20 @@
+# Build output and local-only folders
+build/
+artifacts/
+downloads/
+baseline/
+/regionfix.wuhb
+*.wuhb
+*.rpx
+*.elf
+*.a
+
+# Original upstream git metadata (renamed so the patched sources are tracked here)
+.git-upstream
+
+# Console dumps and logs: can contain console-identifying info
+*.log
+regionfix_backup/
+*sysprod*
+*otp*.bin
+*seeprom*.bin
